@@ -1,0 +1,104 @@
+body {  
+	background-color:black; 
+	background-image: url("chf.gif");    
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+	background-position: center top;
+	overflow: scroll;
+}
+
+hr{
+	border: 1px solid red;
+}
+
+
+.title{
+	
+	width:250px;
+	text-align: center;
+	color:white;
+	font-size: 30px;
+	padding: 5px;
+    border: 5px inset red;
+	margin: auto;	
+}
+
+.intro{
+	margin: auto;
+	width:96%;
+	/*background-color: white; */
+	border: 2px dashed red;
+	color:black;
+	text-align: center;
+	font-size: 30px;
+}
+.slide{
+	text-align: center;
+}
+
+.button1{
+    background-color:black;
+	color:white;	
+    height:50px;
+	width:70px;
+	position: relative;
+    top:5px;
+    left: 45%;
+}
+
+/*.button2{
+    background-color:black;
+	color:white;
+    height:50px;
+	width:70px;
+	position: relative;
+    top:5px;
+    left: 50%;
+} */
+
+.color1{
+	background: linear-gradient(#ffffff, #ffe6e6)
+}
+.color2{
+	background: linear-gradient(#ffcccc, #ffb3b3)
+}
+.color3{
+	background: linear-gradient(#ff9999, #ff8080)
+}
+/*.color4{
+	background: linear-gradient(#ff6666, #ff4d4d)
+}
+.color5{
+	background: linear-gradient(#ff3333 #ff1a1a)
+}
+.color6{
+	background: linear-gradient(#ff0000, #e60000)
+} */
+
+.circleleft{
+	-webkit-border-radius:25px 25px 0 0;  
+	-ms-border-radius:25px 25px 0 0;
+	background-color: white;
+	width:40%;
+	border:5px solid white;
+	float:left;
+	font-size: 20px;
+	clear: both;
+	
+}
+.circleright{
+	-webkit-border-radius:25px 25px 0 0;  
+	-ms-border-radius:25px 25px 0 0;
+	background-color: white;
+	width:40%;
+	border:5px solid white;
+	float:right;
+	font-size: 20px;
+	clear: both;
+}
+
+.table{
+	font-size:30px;	
+	border:5px solid red;
+}
+	
